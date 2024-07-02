@@ -1,0 +1,37 @@
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #6c6c6c;
+    padding-left: 20px;
+    padding-right: 15px;
+    /* justify-content: center; */
+    align-items: center;
+}
+.battlefields{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 140px;
+}
+.sidebar-img{
+    width: 28px;
+}
+.action-icon{
+    display: flex;
+    flex-direction: column;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-top: 260px;
+}
+.sidebar-icon{
+    width: 12px;
+}
+img{
+    opacity: 0.5;
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+img:hover{
+    opacity: 1.0;
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
