@@ -38,6 +38,8 @@
     flex-direction: column;
     gap: 10px;
     font-family: Rajdhani,sans-serif;
+    max-height: calc(100vh - 20px);
+    overflow-y: auto;
 }
 .server-data>.server-head-two>img{
     width: 16px;

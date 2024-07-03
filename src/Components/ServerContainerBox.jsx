@@ -2,6 +2,7 @@ import axios from "axios";
 import { useState,useEffect } from "react";
 import.meta.env.VITE_API_URL
 import './ServerContainerBox.css'
+import BlockTile from "./BlockTile";
 
 
 export default function ServerContainerBox() {
@@ -83,7 +84,40 @@ export default function ServerContainerBox() {
         </div>
 
         <div className="server-chart">
+          <div className="server-block">
+            <div className="block-heading">SETTINGS</div>
+            {settings.map(data=>
+              <BlockTile
+                key={data.id}
+                tileName={data.name}
+                tileValue={data.value}
+              />
+            )}
+          </div>
+          <div className="server-block">
+          <div className="block-heading">ADVANCED</div>
+          {advanced.map(data=>
+              <BlockTile
+                key={data.id}
+                tileName={data.name}
+                tileValue={data.value}
+              />
+            )}
+          </div>
+          <div className="server-block">
+          <div className="block-heading">RULES</div>
+          {rules.map(data=>
+              <BlockTile
+                key={data.id}
+                tileName={data.name}
+                tileValue={data.value}
+              />
+            )}
+          </div>
+        </div>
 
+        <div className="map-rotation">
+          <div className="map-heading">MAP ROTATION</div>
         </div>
 
     </div>
