@@ -2,19 +2,19 @@
     display: flex;
     flex-direction: column;
     border-right: 1px solid #6c6c6c;
-    padding-left: 20px;
-    padding-right: 15px;
-    /* justify-content: center; */
+    padding-left: 16px;
+    padding-right: 14px;
+    justify-content: space-around;
     align-items: center;
 }
 .battlefields{
     display: flex;
     flex-direction: column;
-    gap: 12px;
-    margin-top: 140px;
+    gap: 10px;
+    margin-top: 40px;
 }
 .sidebar-img{
-    width: 28px;
+    width: 26px;
 }
 .action-icon{
     display: flex;
@@ -22,16 +22,24 @@
     flex-direction: column;
     align-items: center;
     gap: 30px;
-    margin-top: 260px;
+    margin-bottom: -40px;
 }
 .sidebar-icon{
     width: 12px;
 }
-img{
+.battlefields>img{
     opacity: 0.5;
-    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+    transition: opacity 0.1s ease-in-out, transform 0.1s ease-in-out;
 }
-img:hover{
+.battlefields>img:hover{
     opacity: 1.0;
-    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+    transition: opacity 0.1s ease-in-out, transform 0.1s ease-in-out;
+}
+.action-icon>img{
+    opacity: 0.5;
+    transition: opacity 0.1s ease-in-out, transform 0.1s ease-in-out;
+}
+.action-icon>img:hover{
+    opacity: 1.0;
+    transition: opacity 0.1s ease-in-out, transform 0.1s ease-in-out;
 }

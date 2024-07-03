@@ -1,7 +1,31 @@
-import React from 'react'
+import leftarrow from "../assets/images/left-arrow.png";
+import usflag from "../assets/images/united-states.png"
+import './server.css'
 
 export default function Server() {
   return (
-    <div>Server</div>
-  )
+    <div className="server">
+
+      <div className="main-heading">
+        <div className="small-head">
+          <img src={leftarrow} alt="" /> MULTIPLAYER / SERVER BROWSER /
+        </div>
+        <div className="big-head">SERVER INFO</div>
+      </div>
+
+      <div className="server-data">
+        <div className="server-head-one">! RC3-BASEMAPS</div>
+        <div className="server-head-two"><img src={usflag} alt="" />CONQUEST LARGE - LANCANG DAM - CUSTOM - 60 HZ</div>
+        <div className="server-head-two">Server protected by The_K-50 AntiCheat. Vip !Rules, Questions, Request, Appeal, Visit us: www.epg.gg | Discord https://discord.gg/3r5NK4d</div>
+      </div>
+
+      <div className="button-group">
+        <button className="btn">JOIN</button>
+        <button className="btn">SPECTATE</button>
+        <button className="btn">JOIN AS COMMANDER</button>
+        <button className="btn">13672</button>
+      </div>
+
+    </div>
+  );
 }
