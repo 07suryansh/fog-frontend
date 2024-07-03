@@ -1,0 +1,26 @@
+.server-stats{
+    display: flex;
+    align-items: center;
+    margin-bottom: 2.5vh;
+}
+.server-stats-box{
+    margin-right: 12vh;
+}
+.stats-heading{
+    color: #fff;
+    letter-spacing: .1vh;
+    text-transform: uppercase;
+    font-family: Rajdhani, sans-serif;
+    font-size: 1.5vh;
+    font-weight: 600;
+    line-height: 1.8vh;
+}
+.stats-data{
+    color: #fff;
+    letter-spacing: .1vh;
+    text-transform: none;
+    font-family: Rajdhani, sans-serif;
+    font-size: 2.5vh;
+    font-weight: 600;
+    line-height: 3vh;
+}

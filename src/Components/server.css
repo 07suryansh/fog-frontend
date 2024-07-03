@@ -4,6 +4,34 @@
     padding: 30px;
     gap: 40px;
 }
+.small-head{
+    color: #fff;
+    letter-spacing: .1vh;
+    text-transform: uppercase;
+    margin-bottom: .3vh;
+    margin-right: 1.5vh;
+    font-family: Rajdhani, sans-serif;
+    font-size: -8.5vh;
+    font-weight: 600;
+    line-height: 2vh;
+    text-decoration: none;
+    transition: opacity .1s;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.small-head>img{
+    width: 10px;
+    height: 10px;
+}
+.big-head{
+    color: #fff;
+    text-transform: uppercase;
+    font-family: Rajdhani, sans-serif;
+    font-size: 4vh;
+    font-weight: 600;
+    line-height: 4vh;
+}
 .server-data{
     margin-top: 40px;
     display: flex;

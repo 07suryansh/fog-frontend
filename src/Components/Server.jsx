@@ -1,5 +1,6 @@
 import leftarrow from "../assets/images/left-arrow.png";
 import usflag from "../assets/images/united-states.png";
+import ServerContainerBox from "./ServerContainerBox";
 import "./server.css";
 
 export default function Server() {
@@ -30,6 +31,8 @@ export default function Server() {
           <div className="btn">JOIN AS COMMANDER</div>
           <div className="btn">13672</div>
         </div>
+
+        <ServerContainerBox/>
 
       </div>
     </div>
