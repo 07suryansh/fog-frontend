@@ -4,3 +4,67 @@
     padding: 30px;
     gap: 40px;
 }
+.server-data{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: Rajdhani,sans-serif;
+}
+.server-data>.server-head-two>img{
+    width: 16px;
+}
+.server-head-two{
+    color: rgba(255, 255, 255, .8);
+    letter-spacing: .1vh;
+    text-transform: uppercase;
+    font-family: Rajdhani, sans-serif;
+    font-size: 1.5vh;
+    font-weight: 600;
+    line-height: 1.8vh;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.server-head-three{
+    width: 80vh;
+    color: rgba(255, 255, 255, .8);
+    letter-spacing: .08vh;
+    font-family: Rajdhani, sans-serif;
+    font-size: 1.5vh;
+    font-weight: 600;
+    line-height: 1.8vh;
+}
+.server-head-one{
+    color: #fff;
+    letter-spacing: .1vh;
+    margin-bottom: 1vh;
+    font-family: Rajdhani, sans-serif;
+    font-size: 3.1vh;
+    font-weight: 600;
+    line-height: 3.8vh;
+}
+.button-group{
+    display: flex;
+    gap: 8px;
+    margin: 10px auto;
+}
+.btn{
+    text-align: center;
+    background:none;
+    width: 200px;
+    border: 1px solid #919191;
+    padding: 10px;
+    transition: transform 0.1s ease-in-out, background-color 0.1s ease-in-out, color 0.1s ease-in-out;
+    letter-spacing: .1vh;
+    text-transform: uppercase;
+    font-family: Rajdhani, sans-serif;
+    font-size: 1.5vh;
+    font-weight: 600;
+    line-height: 1.8vh;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+    transition: transform 0.1s ease-in-out, background-color 0.1s ease-in-out, color 0.1s ease-in-out;
+}
