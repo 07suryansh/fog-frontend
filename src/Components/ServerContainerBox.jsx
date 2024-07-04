@@ -45,12 +45,12 @@ export default function ServerContainerBox() {
         setAdvanced(advancedRes.data);
         setRules(rulesRes.data);
 
-        console.log("Players:", playersRes.data);
-        console.log("Ping:", pingRes.data);
-        console.log("Tickrate:", tickrateRes.data);
-        console.log("Settings:", settingsRes.data);
-        console.log("Advanced:", advancedRes.data);
-        console.log("Rules:", rulesRes.data);
+        // console.log("Players:", playersRes.data);
+        // console.log("Ping:", pingRes.data);
+        // console.log("Tickrate:", tickrateRes.data);
+        // console.log("Settings:", settingsRes.data);
+        // console.log("Advanced:", advancedRes.data);
+        // console.log("Rules:", rulesRes.data);
       } catch (err) {
         console.error("Error fetching data:", err);
         if (err.response) {
