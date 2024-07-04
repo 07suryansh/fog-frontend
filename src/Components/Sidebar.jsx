@@ -14,43 +14,43 @@ export default function Sidebar() {
   return (
     <div className="sidebar">
       <ul className="battlefields">
-        <NavLink to="/" className="a">
+        <NavLink to="/s" className="a">
           <img src={b5} alt="" className="sidebar-img" />
           <div className="pop">
             <div className="alert">BATTLEFIELD V</div>
           </div>
         </NavLink>
-        <NavLink to="/" className="a">
+        <NavLink to="/s" className="a">
           <img src={b1} alt="" className="sidebar-img" />
           <div className="pop">
           <div className="alert">BATTLEFIELD 1</div>
           </div>
         </NavLink>
-        <NavLink to="/server" className="a">
+        <NavLink to="/" className="a">
           <img src={b4} alt="" className="sidebar-img" />
           <div className="pop">
           <div className="alert">BATTLEFIELD 4</div>
           </div>
         </NavLink>
-        <NavLink to="/" className="a">
+        <NavLink to="/s" className="a">
           <img src={b2} alt="" className="sidebar-img" />
           <div className="pop">
           <div className="alert">BATTLEFIELD HARDLINE</div>
           </div>
         </NavLink>
-        <NavLink to="/" className="a">
+        <NavLink to="/s" className="a">
           <img src={b3} alt="" className="sidebar-img" />
           <div className="pop">
           <div className="alert">CAREER</div>
           </div>
         </NavLink>
-        <NavLink to="/" className="a">
+        <NavLink to="/s" className="a">
           <img src={b6} alt="" className="sidebar-img" />
           <div className="pop">
           <div className="alert">WATCH</div>
           </div>
         </NavLink>
-        <NavLink to="/" className="a">
+        <NavLink to="/s" className="a">
           <img src={b7} alt="" className="sidebar-img" />
           <div className="pop">
           <div className="alert">NEWS</div>
@@ -58,13 +58,13 @@ export default function Sidebar() {
         </NavLink>
       </ul>
       <ul className="action-icon">
-        <NavLink to="" className="a">
+        <NavLink to="/s" className="a">
           <img src={p1} alt="" className="sidebar-icon" />
           <div className="pop">
           <div className="alert">HELP</div>
           </div>
         </NavLink>
-        <NavLink to="" className="a">
+        <NavLink to="/s" className="a">
           <img src={p2} alt="" className="sidebar-icon" />
           <div className="pop">
           <div className="alert">QUIT</div>

@@ -12,6 +12,7 @@ function App() {
         <Sidebar />
         <Routes>
           <Route path="/" element={<Server />} />
+          <Route path="/s" element={<Server />} />
         </Routes>
         <Rightbar/>
       </div>
