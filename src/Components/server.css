@@ -3,6 +3,7 @@
     flex-direction: column;
     padding: 30px;
     gap: 40px;
+    height: 100vh;
 }
 .small-head{
     color: #fff;
@@ -38,9 +39,9 @@
     flex-direction: column;
     gap: 10px;
     font-family: Rajdhani,sans-serif;
-    max-height: calc(100vh - 20px);
-    overflow-y: auto;
+    
 }
+
 .server-data>.server-head-two>img{
     width: 16px;
 }
@@ -98,3 +99,34 @@
     color: black;
     transition: transform 0.1s ease-in-out, background-color 0.1s ease-in-out, color 0.1s ease-in-out;
 }
+
+.server-data{
+    width: 127vh;
+    height: 82.4vh;
+    border-bottom: 1px rgba(255, 255, 255, .1);
+    margin-top: 8vh;
+    position: relative;
+    overflow: auto;
+    max-height: calc(100vh - 20px);
+    overflow-y: auto;
+    flex-grow: 1; 
+  overflow-y: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

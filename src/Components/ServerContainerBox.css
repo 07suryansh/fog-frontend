@@ -47,3 +47,60 @@
     font-weight: 600;
     line-height: 1.8vh;
 }
+.map-heading{
+    color: #fff;
+    letter-spacing: .1vh;
+    text-transform: uppercase;
+    margin-bottom: 1.5vh;
+    font-family: Rajdhani, sans-serif;
+    font-size: 1.5vh;
+    font-weight: 600;
+    line-height: 1.8vh;
+}
+.maps{
+    grid-column-gap: 2vh;
+    grid-row-gap: 2vh;
+    grid-template-rows: auto auto auto auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-auto-columns: 1fr;
+    display: grid;
+}
+.map-info{
+    width: 28vh;
+    height: 15.5vh;
+    background-color: rgba(16, 16, 16, .5);
+}
+
+
+
+
+.server-container-box {
+    max-height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+
+  .server-stats, .server-chart, .map-rotation {
+    margin-bottom: 20px;
+  }
+  
+  .server-stats-box, .server-block, .map-rotation {
+    margin-bottom: 10px;
+  }
+  
+
+  .map-rotation {
+    max-height: 400px; 
+    overflow-y: auto;
+  }
+  
+  .maps {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .map-heading {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }

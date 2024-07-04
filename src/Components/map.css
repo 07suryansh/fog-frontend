@@ -1,0 +1,59 @@
+.map-info{
+    width: 28vh;
+    height: 15.5vh;
+    background-color: rgba(16, 16, 16, .5);
+}
+.map-image{
+    height: 7vh;
+    position: relative;
+    overflow: hidden;
+}
+.location-name-one{
+    color: #fff;
+    letter-spacing: .1vh;
+    text-transform: uppercase;
+    margin-top: 2vh;
+    margin-left: 2vh;
+    margin-right: 2vh;
+    font-family: Rajdhani, sans-serif;
+    font-size: 1.6vh;
+    font-weight: 700;
+    line-height: 2vh;
+}
+.location-name-two{
+    color: #fff;
+    letter-spacing: .1vh;
+    text-transform: uppercase;
+    margin-left: 2vh;
+    margin-right: 2vh;
+    font-family: Rajdhani, sans-serif;
+    font-size: 1.6vh;
+    font-weight: 700;
+    line-height: 2vh;
+}
+.img-overlay{
+    opacity: .3;
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), #101010), linear-gradient(rgba(0, 85, 164, .47), rgba(0, 85, 164, .47));
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+}
+.img-pic{
+    height: 8vh;
+    max-width: 120%;
+    margin-left: -10%;
+}
+.img-pic {
+    transform: translate3d(0px, 0vh, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+}
+.img-pic {
+    transition: transform 0.3s ease-in-out;
+}
+  
+.img-pic:hover {
+    transform: translate3d(50px, 10vh, 0px) scale3d(1.2, 1.2, 1) rotateX(10deg) rotateY(10deg) rotateZ(45deg) skew(10deg, 5deg);
+    transform-style: preserve-3d;
+}

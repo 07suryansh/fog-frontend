@@ -2,8 +2,10 @@ import leftarrow from "../assets/images/left-arrow.png";
 import usflag from "../assets/images/united-states.png";
 import ServerContainerBox from "./ServerContainerBox";
 import "./server.css";
+import.meta.env.VITE_API_URL;
 
 export default function Server() {
+
   return (
     <div className="server">
       <div className="main-heading">
@@ -14,7 +16,6 @@ export default function Server() {
       </div>
 
       <div className="server-data">
-
         <div className="server-head-one">! RC3-BASEMAPS</div>
         <div className="server-head-two">
           <img src={usflag} alt="" />
@@ -33,7 +34,7 @@ export default function Server() {
         </div>
 
         <ServerContainerBox/>
-
+        
       </div>
     </div>
   );
