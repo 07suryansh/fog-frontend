@@ -57,17 +57,7 @@
     display: inline-block;
 }
 
-.icon_name {
-    color: #fff;
-    letter-spacing: 0.08vh;
-    text-transform: uppercase;
-    font-family: Rajdhani, sans-serif;
-    font-size: 1.5vh;
-    font-weight: 600;
-    line-height: 1.8vh;
-    opacity: 0;
-    transition: opacity 0.3s ease;
-}
+
 
 .squad_img {
     display: flex;
@@ -106,6 +96,16 @@
     line-height: 1.6vh;
     transition: opacity 0.3s ease;
 }
+.icon_name {
+    color: #fff;
+    letter-spacing: 0.08vh;
+    text-transform: uppercase;
+    font-family: Rajdhani, sans-serif;
+    font-size: 1.5vh;
+    font-weight: 600;
+    line-height: 1.8vh;
+    visibility: hidden;
+}
 
 .img_name_one {
     color: #fff;
@@ -119,7 +119,9 @@
     visibility: hidden;
 }
 
-.rightbar:hover .icon-name,
+.rightbar:hover .icon_name{
+    visibility: visible;
+}
 .rightbar:hover .img_name_one,
 .rightbar:hover .img_name_two {
     visibility: visible;

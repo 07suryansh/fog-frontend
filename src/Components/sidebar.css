@@ -27,19 +27,61 @@
 .sidebar-icon{
     width: 12px;
 }
-.battlefields>img{
+.battlefields>a>img{
     opacity: 0.5;
     transition: opacity 0.1s ease-in-out, transform 0.1s ease-in-out;
 }
-.battlefields>img:hover{
+.battlefields>a>img:hover{
     opacity: 1.0;
     transition: opacity 0.1s ease-in-out, transform 0.1s ease-in-out;
 }
-.action-icon>img{
+.action-icon>a>img{
     opacity: 0.5;
     transition: opacity 0.1s ease-in-out, transform 0.1s ease-in-out;
 }
-.action-icon>img:hover{
+.action-icon>a>img:hover{
     opacity: 1.0;
     transition: opacity 0.1s ease-in-out, transform 0.1s ease-in-out;
+}
+
+.alert{
+    color: #fff;
+    text-align: center;
+    letter-spacing: .07vh;
+    text-transform: uppercase;
+    font-family: Rajdhani, sans-serif;
+    font-size: 1.3vh;
+    font-weight: 500;
+    line-height: 1.5vh;
+    text-decoration: none;
+}
+.pop{
+    z-index: 5;
+    opacity: 1;
+    background-color: #101010;
+    flex: none;
+    margin-left: 7vh;
+    padding: .3vh 1vh;
+    /* display: none; */
+    position: absolute;
+    visibility: hidden;
+}
+a:hover .pop{
+    visibility: visible;
+}
+.a{
+    display: flex;
+    align-items: center;
+}
+.alert{
+    margin-left: -20px;
+}
+.active{
+    border-left: 3px solid #ee930e;
+    margin-left: -14px;
+    padding-left: 10px;
+    opacity: 1;
+}
+.active .sidebar-img{
+    opacity: 1;
 }
