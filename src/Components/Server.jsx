@@ -30,11 +30,13 @@ export default function Server() {
           <div className="btn">JOIN</div>
           <div className="btn">SPECTATE</div>
           <div className="btn">JOIN AS COMMANDER</div>
-          <div className="btn">13672</div>
+          <div className="btn" style={{width:"14vh"}}>★ 13672</div>
         </div>
 
         <ServerContainerBox/>
-        
+
+
+
       </div>
     </div>
   );

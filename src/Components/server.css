@@ -78,7 +78,7 @@
 .button-group{
     display: flex;
     gap: 8px;
-    margin: 10px auto;
+    margin: 10px 0px;
 }
 .btn{
     text-align: center;
@@ -110,7 +110,8 @@
     max-height: calc(100vh - 20px);
     overflow-y: auto;
     flex-grow: 1; 
-  overflow-y: auto;
+    overflow-y: auto;
+    margin-bottom: 8vh;
 }
 
 

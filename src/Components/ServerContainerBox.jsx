@@ -5,6 +5,9 @@ import "./ServerContainerBox.css";
 import BlockTile from "./BlockTile";
 import Map from "./Map";
 import m1 from "../assets/maps/m1.png";
+import m2 from "../assets/maps/m2.png";
+import m3 from "../assets/maps/m3.png";
+import m4 from "../assets/maps/m4.png";
 
 export default function ServerContainerBox() {
   const api_url = import.meta.env.VITE_API_URL;
@@ -120,6 +123,93 @@ export default function ServerContainerBox() {
           ))}
         </div>
       </div>
+
+      <div className="map-box">
+        <div className="map-heading">MAP ROTATION</div>
+        <div className="map-block">
+          <Map
+            img_url={m1}
+            h_one="CONQUEST LARGE"
+            h_two="DAWNBREAKER"
+           />
+          <Map
+            img_url={m2}
+            h_one="CONQUEST LARGE"
+            h_two="PROPAGANDA"
+           />
+          <Map
+            img_url={m3}
+            h_one="CONQUEST LARGE"
+            h_two="OPERATION LOCKER"
+           />
+          <Map
+            img_url={m4}
+            h_one="CONQUEST LARGE"
+            h_two="LANCANG DAM"
+           />
+           <Map
+            img_url={m1}
+            h_one="CONQUEST LARGE"
+            h_two="DAWNBREAKER"
+           />
+          <Map
+            img_url={m2}
+            h_one="CONQUEST LARGE"
+            h_two="PROPAGANDA"
+           />
+          <Map
+            img_url={m3}
+            h_one="CONQUEST LARGE"
+            h_two="OPERATION LOCKER"
+           />
+          <Map
+            img_url={m4}
+            h_one="CONQUEST LARGE"
+            h_two="LANCANG DAM"
+           />
+           <Map
+            img_url={m1}
+            h_one="CONQUEST LARGE"
+            h_two="DAWNBREAKER"
+           />
+          <Map
+            img_url={m2}
+            h_one="CONQUEST LARGE"
+            h_two="PROPAGANDA"
+           />
+          <Map
+            img_url={m3}
+            h_one="CONQUEST LARGE"
+            h_two="OPERATION LOCKER"
+           />
+          <Map
+            img_url={m4}
+            h_one="CONQUEST LARGE"
+            h_two="LANCANG DAM"
+           />
+           <Map
+            img_url={m1}
+            h_one="CONQUEST LARGE"
+            h_two="DAWNBREAKER"
+           />
+          <Map
+            img_url={m2}
+            h_one="CONQUEST LARGE"
+            h_two="PROPAGANDA"
+           />
+          <Map
+            img_url={m3}
+            h_one="CONQUEST LARGE"
+            h_two="OPERATION LOCKER"
+           />
+          <Map
+            img_url={m4}
+            h_one="CONQUEST LARGE"
+            h_two="LANCANG DAM"
+           />  
+        </div>
+      </div>
+
     </div>
   );
 }
