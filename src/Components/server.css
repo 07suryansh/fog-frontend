@@ -34,7 +34,7 @@
     line-height: 4vh;
 }
 .server-data{
-    margin-top: 40px;
+    margin-top: 20px;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -104,7 +104,7 @@
     width: 127vh;
     height: 82.4vh;
     border-bottom: 1px rgba(255, 255, 255, .1);
-    margin-top: 8vh;
+    margin-top: 5vh;
     position: relative;
     overflow: auto;
     max-height: calc(100vh - 20px);

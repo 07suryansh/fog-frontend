@@ -1,5 +1,6 @@
 import leftarrow from "../assets/images/left-arrow.png";
 import usflag from "../assets/images/united-states.png";
+
 import ServerContainerBox from "./ServerContainerBox";
 import "./server.css";
 import.meta.env.VITE_API_URL;
@@ -36,7 +37,7 @@ export default function Server() {
         <ServerContainerBox/>
 
 
-
+        
       </div>
     </div>
   );
