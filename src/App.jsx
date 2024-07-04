@@ -12,7 +12,6 @@ function App() {
         <Sidebar />
         <Routes>
           <Route path="/" element={<Server />} />
-          <Route path="/server" element={<Server />} />
         </Routes>
         <Rightbar/>
       </div>
