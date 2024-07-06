@@ -10,7 +10,8 @@ import m3 from "../assets/maps/m3.png";
 import m4 from "../assets/maps/m4.png";
 
 export default function ServerContainerBox() {
-  const api_url = import.meta.env.VITE_API_URL;
+  // const api_url = import.meta.env.VITE_API_URL;
+  const api_url = 'https://fog-backend-api.vercel.app';
   console.log(api_url);
   const [players, setPlayers] = useState(null);
   const [ping, setPing] = useState(null);
